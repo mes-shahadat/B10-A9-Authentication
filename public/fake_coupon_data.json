@@ -1,0 +1,1252 @@
+[
+    {
+        "_id": "e3396392-6d13-48cf-ad32-86b3e84fd705",
+        "brand_name": "Daraz",
+        "rating": 4.1,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/2nx3wrN/daraz.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE3835",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-08-30",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://daraz.com",
+        "category": "Books",
+        "isSaleOn": false
+    },
+    {
+        "_id": "0e143ca1-577b-4f55-9729-33ed7980b518",
+        "brand_name": "Evaly",
+        "rating": 4.8,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/3zWGx0Y/Evaly.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE9825",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-03-27",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE5096",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-08-23",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE5765",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-07-24",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE2658",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-03-08",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://evaly.com",
+        "category": "Sports",
+        "isSaleOn": false
+    },
+    {
+        "_id": "f2545494-4416-4cc7-8871-6756b7ba0e72",
+        "brand_name": "Ajkerdeal",
+        "rating": 4.3,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/zVzbS0C/Ajkerdeal.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE5536",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-10-18",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE5157",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-06-26",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE3646",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-11-03",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE4597",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2024-12-12",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE6900",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-02-20",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://ajkerdeal.com",
+        "category": "Sports",
+        "isSaleOn": true
+    },
+    {
+        "_id": "8e263687-6c04-4c32-99b2-63f64c5908fc",
+        "brand_name": "Chaldal",
+        "rating": 3.1,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/3vvfYDP/Chaldal.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE5770",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-02-05",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE7289",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-04-05",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://chaldal.com",
+        "category": "Books",
+        "isSaleOn": false
+    },
+    {
+        "_id": "194be93c-1644-4924-a4b8-6b5c8406178c",
+        "brand_name": "Rokomari",
+        "rating": 4.3,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/RTQyWJ1/Rokomari.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE8099",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-06-23",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE7161",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-10-18",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE5672",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-09-16",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE2397",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-02-08",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://rokomari.com",
+        "category": "Beauty",
+        "isSaleOn": false
+    },
+    {
+        "_id": "48e00b93-7261-4578-bd85-70258936db5c",
+        "brand_name": "Pickaboo",
+        "rating": 4.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/0t1gRW1/Pickaboo.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE1136",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2024-12-12",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE5087",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-01-25",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE5908",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-07-11",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://pickaboo.com",
+        "category": "Sports",
+        "isSaleOn": false
+    },
+    {
+        "_id": "d9fc18a1-3d21-4e7a-b046-a5c71c6d85e0",
+        "brand_name": "Priyoshop",
+        "rating": 4.1,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/k1jm9G6/Priyoshop.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE5196",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-03-28",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://priyoshop.com",
+        "category": "Toys",
+        "isSaleOn": false
+    },
+    {
+        "_id": "9146537c-b978-41c2-bc93-c6f41f46da2b",
+        "brand_name": "Bagdoom",
+        "rating": 4.7,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/mJ0n6Vd/Bagdoom.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE8328",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-08-04",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE7394",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-02-15",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://bagdoom.com",
+        "category": "Sports",
+        "isSaleOn": false
+    },
+    {
+        "_id": "9bae736f-7a0c-463e-81cc-0dd0aa996059",
+        "brand_name": "Shajgoj",
+        "rating": 4.1,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/4mpnF5C/Shajgoj.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE7272",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-03-20",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE1789",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-09-27",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://shajgoj.com",
+        "category": "Sports",
+        "isSaleOn": false
+    },
+    {
+        "_id": "3f0a35f2-ba80-44b1-8b57-dcaee7ce9947",
+        "brand_name": "ShopUp",
+        "rating": 4.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/D82q6CH/ShopUp.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE1879",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-06-17",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE8788",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2024-12-11",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE6986",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-04-17",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE1045",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-08-21",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://shopup.com",
+        "category": "Beauty",
+        "isSaleOn": true
+    },
+    {
+        "_id": "a117200a-feb7-4b61-bff9-3b58d3a9b384",
+        "brand_name": "Othoba",
+        "rating": 4.4,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/sm8yG9N/Othoba.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE2331",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-08-04",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE3463",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2024-11-25",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE3233",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-05-13",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE3782",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-07-20",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://othoba.com",
+        "category": "Electronics",
+        "isSaleOn": true
+    },
+    {
+        "_id": "d4b51c44-51a4-43cb-b89a-1e06ac5f756c",
+        "brand_name": "Bikroy",
+        "rating": 3.8,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/yyh8QFw/Bikroy.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE4155",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-04-14",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE7850",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-04-22",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE4885",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-04-22",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE6939",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-04-24",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE7874",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-03-05",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://bikroy.com",
+        "category": "Electronics",
+        "isSaleOn": false
+    },
+    {
+        "_id": "3583b20b-c9e3-481d-84a6-b3c20bfb563c",
+        "brand_name": "ClickBD",
+        "rating": 4.5,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/t48qQC4/ClickBD.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE7148",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-01-04",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE9044",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-06-06",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://clickbd.com",
+        "category": "Fashion",
+        "isSaleOn": false
+    },
+    {
+        "_id": "74305caa-f5f4-4f6c-a504-f23f85dda6cb",
+        "brand_name": "Foodpanda",
+        "rating": 3.4,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/cT3C9nH/Foodpanda.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE7812",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-09-09",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE1354",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-11-18",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://foodpanda.com",
+        "category": "Electronics",
+        "isSaleOn": true
+    },
+    {
+        "_id": "f2ab1fd2-87e1-46ce-800b-306cc282d040",
+        "brand_name": "Pathao",
+        "rating": 4.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/k1yLMfD/Pathao.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE5243",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-03-21",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE4411",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-04-17",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE8063",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-07-24",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE6981",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-07-01",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE7745",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-09-13",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://pathao.com",
+        "category": "Electronics",
+        "isSaleOn": true
+    },
+    {
+        "_id": "425ee0ae-9059-4933-b022-95b520cc2a49",
+        "brand_name": "Hungrynaki",
+        "rating": 3.1,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/XXk758Q/Hungrynaki.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE2651",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-01-20",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE2373",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-05-17",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://hungrynaki.com",
+        "category": "Sports",
+        "isSaleOn": true
+    },
+    {
+        "_id": "e340ef46-24ce-4dec-a8bd-393400cb258e",
+        "brand_name": "PandaMart",
+        "rating": 4.2,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/h8n4nW4/Panda-Mart.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE6662",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-02-21",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE7038",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-01-21",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://pandamart.com",
+        "category": "Fashion",
+        "isSaleOn": false
+    },
+    {
+        "_id": "311d4b05-198f-4e15-a632-a7a338bdfe9a",
+        "brand_name": "Eorange",
+        "rating": 3.7,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "hhttps://i.ibb.co.com/SsT8ZWp/Eorange.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE4490",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-07-21",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE9997",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2024-12-18",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE6928",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-09-20",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://eorange.com",
+        "category": "Electronics",
+        "isSaleOn": false
+    },
+    {
+        "_id": "248dc01c-d724-4292-b813-77fe45c4d2a3",
+        "brand_name": "GadgetGang7",
+        "rating": 3.6,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/bRfJPwy/Gadget-Gang7.jpgg",
+        "coupons": [
+            {
+                "coupon-code": "CODE1127",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-08-18",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE4719",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-07-05",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE8389",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-01-28",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE4236",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-10-12",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE3432",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-01-27",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://gadgetgang7.com",
+        "category": "Books",
+        "isSaleOn": true
+    },
+    {
+        "_id": "82a895ec-2894-4c62-9aed-9fa0e429d502",
+        "brand_name": "Bohubrihi",
+        "rating": 4.5,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/FsHxq5x/Bohubrihi.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE8107",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-10-28",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://bohubrihi.com",
+        "category": "Electronics",
+        "isSaleOn": true
+    },
+    {
+        "_id": "1e2c0186-9099-4aff-aef6-7409ae32efaf",
+        "brand_name": "ToguMogu",
+        "rating": 3.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/nnjH6fx/ToguMogu.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE2533",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-10-07",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE3011",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-08-31",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://togumogu.com",
+        "category": "Beauty",
+        "isSaleOn": true
+    },
+    {
+        "_id": "1f0dedcc-9657-49e9-8fba-b6d8f430c8d6",
+        "brand_name": "Sindabad",
+        "rating": 3.7,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/pZC5hRZ/Sindabad.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE1267",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-03-16",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE1323",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2024-12-30",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE3636",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-04-07",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://sindabad.com",
+        "category": "Toys",
+        "isSaleOn": false
+    },
+    {
+        "_id": "e9d98934-fd1a-4aad-81e5-8d547220cb7f",
+        "brand_name": "Jadroo",
+        "rating": 3.9,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/m6043Hv/Jadroo.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE3233",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-08-06",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE3991",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-02-28",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://jadroo.com",
+        "category": "Home & Kitchen",
+        "isSaleOn": false
+    },
+    {
+        "_id": "ffedbcf0-9b8a-42e6-8ebe-861102fd0f48",
+        "brand_name": "KhaasFood",
+        "rating": 4.3,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/K2PrgF8/Khaas-Food.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE5810",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-03-31",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE2469",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-06-11",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE3498",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-09-16",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE3263",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-04-15",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://khaasfood.com",
+        "category": "Beauty",
+        "isSaleOn": false
+    },
+    {
+        "_id": "5dbda9a1-52e2-43c6-8f4d-754e285d72e3",
+        "brand_name": "Priyofood",
+        "rating": 4.3,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/5TsF9rc/Priyofood.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE7352",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-04-12",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE7008",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-06-30",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE1447",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-01-28",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE2926",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-03-28",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://priyofood.com",
+        "category": "Books",
+        "isSaleOn": true
+    },
+    {
+        "_id": "13740fd3-1f23-45ce-8155-d16c4edfdbd2",
+        "brand_name": "JamdaniCrafts",
+        "rating": 4.3,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/5htRWpj/Jamdani-Crafts.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE3881",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2024-12-18",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE2757",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-07-03",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://jamdanicrafts.com",
+        "category": "Home & Kitchen",
+        "isSaleOn": true
+    },
+    {
+        "_id": "1345cc7c-3dac-44db-bb58-d065078a38fc",
+        "brand_name": "WeCare",
+        "rating": 4.2,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/wLz7Bd2/WeCare.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE7802",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-11-04",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE7673",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-03-18",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://wecare.com",
+        "category": "Electronics",
+        "isSaleOn": false
+    },
+    {
+        "_id": "5c35ccdf-ceb0-47d3-bbf5-c0b37f090832",
+        "brand_name": "Florista",
+        "rating": 4.1,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/mz91C6t/Florista.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE9833",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-03-27",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE3528",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-01-11",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE8151",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2024-11-20",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://florista.com",
+        "category": "Toys",
+        "isSaleOn": false
+    },
+    {
+        "_id": "ef79811e-aadd-4e6b-ab9d-eb3325eb2d59",
+        "brand_name": "ApnarDeal",
+        "rating": 4.2,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/gD7bCWv/Apnar-Deal.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE2318",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-06-20",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE9256",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-05-14",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://apnardeal.com",
+        "category": "Home & Kitchen",
+        "isSaleOn": true
+    },
+    {
+        "_id": "0a6b1804-0744-43f5-b8ec-6b6fdfb6fbff",
+        "brand_name": "Ajibon",
+        "rating": 4.6,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/2s4R798/Ajibon.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE6963",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-03-22",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE4471",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-03-23",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Percentage Discount"
+            },
+            {
+                "coupon-code": "CODE5385",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-04-17",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE2164",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-06-14",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE2888",
+                "description": "Get more value with this exclusive coupon.",
+                "expiry-date": "2025-03-09",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://ajibon.com",
+        "category": "Toys",
+        "isSaleOn": true
+    },
+    {
+        "_id": "46439f72-9c05-46f8-954c-f34ea110eeee",
+        "brand_name": "PriyoLibrary",
+        "rating": 3.7,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/vc8Y0hR/Priyo-Library.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE3696",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-10-29",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE8776",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-05-22",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE5512",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2024-12-02",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE9785",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2024-12-18",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE8630",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-05-16",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://priyolibrary.com",
+        "category": "Toys",
+        "isSaleOn": false
+    },
+    {
+        "_id": "76091908-e65b-4702-9660-421dd3d947d2",
+        "brand_name": "RuchiMart",
+        "rating": 4.3,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/PQtxG5y/Ruchi-Mart.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE1001",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-02-05",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE4343",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2024-11-23",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE6508",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-07-11",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE9432",
+                "description": "Limited-time discount on selected items.",
+                "expiry-date": "2025-03-04",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://ruchimart.com",
+        "category": "Books",
+        "isSaleOn": true
+    },
+    {
+        "_id": "a38aa08d-c4ea-4bbe-b710-470187586fca",
+        "brand_name": "TechBazaar",
+        "rating": 4.9,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/6v49J5Q/Tech-Bazaar.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE4107",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-01-30",
+                "condition": "Not valid on discounted products.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://techbazaar.com",
+        "category": "Home & Kitchen",
+        "isSaleOn": true
+    },
+    {
+        "_id": "15aaad2d-4177-41ce-84c7-fdf94a674dc1",
+        "brand_name": "FashionStar",
+        "rating": 4.5,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/hHhR0BQ/Fashion-Star.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE2700",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-05-21",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE5598",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-05-04",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://fashionstar.com",
+        "category": "Home & Kitchen",
+        "isSaleOn": false
+    },
+    {
+        "_id": "e5c062fc-3655-4376-b3f3-d11066c20f38",
+        "brand_name": "BengalMart",
+        "rating": 3.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/56xNHyW/Bengal-Mart.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE8511",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-06-30",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://bengalmart.com",
+        "category": "Toys",
+        "isSaleOn": false
+    },
+    {
+        "_id": "f1034ac8-bac7-49f7-9e1d-e6f397e1e859",
+        "brand_name": "OnlineBazarBD",
+        "rating": 3.6,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/zVRB0LP/Online-Bazar-BD.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE9972",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-03-01",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://onlinebazarbd.com",
+        "category": "Fashion",
+        "isSaleOn": true
+    },
+    {
+        "_id": "611ab86b-8607-48f2-931d-c3c0ad83c39f",
+        "brand_name": "QuickKartBD",
+        "rating": 5.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/hVYdsJD/Quick-Kart-BD.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE6273",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-05-26",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "BOGO"
+            }
+        ],
+        "shop-Link": "https://quickkartbd.com",
+        "category": "Home & Kitchen",
+        "isSaleOn": true
+    },
+    {
+        "_id": "dc7cf47d-135a-4b75-81ed-c23ec5c05905",
+        "brand_name": "BDMall",
+        "rating": 4.6,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/2SvVD7Z/BDMall.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE6983",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-10-18",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE8305",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2024-11-19",
+                "condition": "Valid only on mobile app purchases.",
+                "cupon_type": "Percentage Discount"
+            }
+        ],
+        "shop-Link": "https://bdmall.com",
+        "category": "Beauty",
+        "isSaleOn": true
+    },
+    {
+        "_id": "bdb2bb2b-a8f7-4d42-b108-0be49b8210b2",
+        "brand_name": "Kablewala",
+        "rating": 3.2,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/H47MSZb/Kablewala.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE7955",
+                "description": "Enjoy amazing discounts on your first purchase!",
+                "expiry-date": "2025-03-06",
+                "condition": "Applicable for first-time users only.",
+                "cupon_type": "Flat Discount"
+            },
+            {
+                "coupon-code": "CODE8151",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-08-27",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Free Shipping"
+            }
+        ],
+        "shop-Link": "https://kablewala.com",
+        "category": "Toys",
+        "isSaleOn": true
+    },
+    {
+        "_id": "afb0c263-24f0-4e63-9235-7e6b87ce2620",
+        "brand_name": "MartFreak",
+        "rating": 3.0,
+        "description": "A leading brand offering high-quality products.",
+        "brand_logo": "https://i.ibb.co.com/qkcLrnD/Mart-Freak.jpg",
+        "coupons": [
+            {
+                "coupon-code": "CODE3467",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-01-21",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "BOGO"
+            },
+            {
+                "coupon-code": "CODE8021",
+                "description": "Seasonal discounts available now!",
+                "expiry-date": "2025-08-06",
+                "condition": "Minimum purchase of $100 required.",
+                "cupon_type": "Free Shipping"
+            },
+            {
+                "coupon-code": "CODE1569",
+                "description": "Special offer for premium members.",
+                "expiry-date": "2025-05-06",
+                "condition": "Valid on orders above $25.",
+                "cupon_type": "Flat Discount"
+            }
+        ],
+        "shop-Link": "https://martfreak.com",
+        "category": "Toys",
+        "isSaleOn": true
+    }
+]
