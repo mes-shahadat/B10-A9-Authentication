@@ -1,16 +1,22 @@
 import { Outlet } from "react-router-dom"
 import Footer from "./components/Footer"
-import Header from "./components/Header"
+import { useContext } from "react"
+import { AuthContext } from "./utils/MainProvider"
+import Nav from "./components/Nav"
 
 
 function App() {
 
+  const {handleClick} = useContext(AuthContext);
+
   return (
-    <>
-      <Header />
+    <div onClick={()=>handleClick(false)}>
+      <Nav/>
       <Outlet/>
       <Footer/>
-    </>
+
+      <div style={{height: "200vh"}}></div>
+    </div>
   )
 }
 
