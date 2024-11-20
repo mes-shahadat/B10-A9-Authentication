@@ -46,7 +46,7 @@ function Brands() {
                                     item.isSaleOn && <p className="font-bold text-red-900 text-end pt-10 absolute right-5 bottom-3 animate__animated animate__bounce animate__infinite">SALE IS ON</p>
                                 }
                                 <p className="flex items-center gap-2 font-semibold text-lg">
-                                    {item.rating}
+                                    {item.rating.toFixed(1)}
                                     <span className="">
                                     <ReactStars
                                         count={5}

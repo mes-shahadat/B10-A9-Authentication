@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
@@ -58,7 +58,7 @@ function CategoryCards() {
                                                 <p className="text-sm">{coupon.description}</p>
                                                 <div className="relative">
                                                 <p className="p-2 border border-dotted border-[#3a6ea5] bg-[#f4fffb] rounded-lg text-right font-bold">{coupon.coupon_code}</p>
-                                                <button className="px-[18px] py-[9px] bg-[#004e98] text-white font-semibold rounded-lg absolute block top-0">Show Coupon</button>
+                                                <Link className="px-[18px] py-[9px] bg-[#004e98] text-white font-semibold rounded-lg absolute block top-0" to={`/brand/${item.brand_name}`} state={item}>Show Coupon</Link>
                                                 </div>
                                             </div>
                                         </SwiperSlide>

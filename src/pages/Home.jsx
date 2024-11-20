@@ -23,8 +23,6 @@ function Home() {
     const [isCopied, setIsCopied] = useState(false);
     const dialogRef = useRef()
 
-    // console.log(data)
-
     const showDialog = useCallback(
         (code) => {
             setCouponCode([...couponCode, ...code])
@@ -150,7 +148,7 @@ function Home() {
 
         </section>
 
-        <section className=" bg-[#ede3f1]">
+        <section className=" bg-[#edf1f8]">
 
         <h2 className="text-2xl font-bold text-center pt-14 mb-8 uppercase">Top Brands That Customers Love</h2>
         <p className="max-w-[70ch] mx-auto text-center font-semibold mb-10 text-gray-800 px-4">Discover the top brands that customers trust and love! From high-quality products to exceptional services, these brands stand out for their commitment to excellence.</p>
@@ -165,7 +163,7 @@ function Home() {
 
                     {
                         data.map(
-                            item => <Link key={item._id} to={`/brands/${item._id}`}>
+                            item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
                                 <img className="w-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
                             </Link>
                         )
@@ -181,7 +179,7 @@ function Home() {
 
                     {
                         data.reverse().map(
-                            item => <Link key={item._id} to={`/brands/${item._id}`}>
+                            item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
                                 <img className="w-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
                             </Link>
                         )
@@ -201,7 +199,7 @@ function Home() {
                     data.map(
                         item => {
                             if (item.isSaleOn) {
-                                return <Link className="relative" to={`/brands/${item._id}`} key={item._id}>
+                                return <Link className="relative" to={`/brand/${item.brand_name}`} state={item} key={item._id}>
 
                                     <div className="bg-white w-max rounded-lg overflow-hidden">
                                         <img className="w-36 h-36 object-cover mx-auto" src={item.brand_logo} alt="" />
@@ -225,9 +223,9 @@ function Home() {
 
         </section>
 
-        <section className="bg-[#ede3f1] mt-10 pb-24">
+        <section className="bg-[#edf1f8] mt-10 pb-24">
 
-            <div className="w-11/12 mx-auto bg-[#ede3f1]">
+            <div className="w-11/12 mx-auto bg-[#edf1f8]">
                 <h2 className="pt-16 text-black text-2xl font-bold mb-10 uppercase">Popular Categories</h2>
 
                 <div className="flex max-sm:flex-col gap-4">

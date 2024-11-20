@@ -13,7 +13,7 @@ function Footer () {
 
                 <div className="w-max">
                     <img className="w-32" src={logo} alt="" />
-                    <div className="flex gap-1 justify-center">
+                    <div className="flex gap-2 justify-center">
                         <Link className="p-1 border border-[#ebebeb] rounded-full" to="https://www.facebook.com/mohammad.sahadat.587/" target="_blank"><CgFacebook /></Link>
                         <Link className="p-1 border border-[#ebebeb] rounded-full" to="https://www.instagram.com/sahadat2173/" target="_blank"><FiInstagram /></Link>
                         <Link className="p-1 border border-[#ebebeb] rounded-full"><RiTwitterXLine /></Link>
@@ -29,7 +29,7 @@ function Footer () {
                 </div>
 
                 <div className="flex flex-col space-y-1 text-gray-200">
-                    <h2 className="text-xl font-bold text-white">help</h2>
+                    <h2 className="text-xl font-bold text-white">Help</h2>
                     <Link className="text-sm">Contact us</Link>
                     <Link className="text-sm">Favourite list</Link>
                     <Link className="text-sm">Faq</Link>

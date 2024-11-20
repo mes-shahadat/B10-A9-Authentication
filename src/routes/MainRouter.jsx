@@ -3,6 +3,7 @@ import App from "../App";
 import Home from "../pages/Home";
 import CategoryCards from "../components/CategoryCards";
 import Brands from "../pages/Brands";
+import Brand from "../pages/Brand";
 
 const router = createBrowserRouter([
     {
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'brand/:id',
-                element: <h3>band details page</h3>
+                element: <Brand/>
             },
             {
                 path: 'my_profile',

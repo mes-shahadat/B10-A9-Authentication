@@ -8,10 +8,13 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'animate.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 createRoot(document.getElementById('root')).render(
 
     <MainProvider>
+      <ToastContainer />
       <RouterProvider router={MainRouter} />
     </MainProvider>
 
