@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import CategoryCards from "../components/CategoryCards";
 import Brands from "../pages/Brands";
 import Brand from "../pages/Brand";
+import Error from "../components/Error";
 
 const router = createBrowserRouter([
     {
@@ -66,7 +67,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '*',
-                element: <h3>error page</h3>
+                element: <Error/>
             },
         ]
     },
