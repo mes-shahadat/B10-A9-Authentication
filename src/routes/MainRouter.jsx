@@ -1,15 +1,33 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../Home";
+import CategoryCards from "../components/CategoryCards";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <App/>,
+        element: <App />,
         children: [
             {
                 path: '',
-                element: <Home/>
+                element: <Home />,
+                loader: () => fetch('/fake_coupon_data.json'),
+                children: [
+                    {
+                        path: '/',
+                        element: <CategoryCards />,
+                        loader: () => fetch('/fake_coupon_data.json')
+                    },
+                    {
+                        path: '/categories/:category',
+                        element: <CategoryCards />,
+                        loader: ({params}) => fetch('/fake_coupon_data.json')
+                            .then(res => res.json())
+                            .then( data => data.filter (
+                                item => item.category == params.category
+                            ))
+                    },
+                ]
             },
             {
                 path: 'brands',

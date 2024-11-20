@@ -30,3 +30,12 @@
 .navbar-end a.active svg {
     fill: #d7dde4;
 }
+
+
+.swiper-wrapper {
+    margin-bottom: 50px;
+}
+
+.category a.active {
+    background-color: #d7dde4;
+}

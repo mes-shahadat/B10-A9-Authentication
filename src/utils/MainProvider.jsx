@@ -6,6 +6,8 @@ function MainProvider({ children }) {
 
     const [menu, setMenu] = useState(false)
     const [user, setUser] = useState("mohammad yasin")
+    const [favourites, setFavourites] = useState([])
+    const [coupons, setCoupons] = useState([])
 
     const handleClick = (add) => {
 
@@ -22,9 +24,13 @@ function MainProvider({ children }) {
     const authInfo = {
         menu,
         user,
+        favourites,
+        coupons,
         setMenu,
         setUser,
-        handleClick
+        handleClick,
+        setFavourites,
+        setCoupons
     }
     return <AuthContext.Provider value={authInfo}>
         {children}

@@ -50,7 +50,7 @@ function Nav() {
 
     return (
         <>
-            <div className="navbar bg-[#ebebeb]/90 backdrop-blur-sm fixed top-0">
+            <div className="navbar bg-[#ebebeb]/90 backdrop-blur-sm fixed top-0 z-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -110,22 +110,22 @@ function Nav() {
 
 
                 {
-                    menu && user ? <div className='absolute max-w-96 top-[72px] right-0 md:right-2 flex flex-col bg-white/90 rounded-lg shadow-sm' onClick={e => e.stopPropagation()}>
+                    menu && user ? <div className='absolute max-w-96 top-[72px] right-0 md:right-2 flex flex-col bg-white rounded-lg shadow-sm' onClick={e => e.stopPropagation()}>
                         <div className=' flex items-center gap-3 p-3'>
-                            <div className='h-28 rounded-full overflow-hidden border-2 border-white'>
+                            <div className='h-28 rounded-full overflow-hidden border-2 border-[#ebebeb]'>
                                 <img className=' h-full w-full object-cover' src={userImg} alt="" />
                             </div>
                             <div className='space-y-2 w-1/2 text-gray-700'>
                                 <h2 className='font-bold'>Mohammad yasin</h2>
                                 <small className='text-xs'>mohammadyasin74630@gmail.com</small>
                                 <div className='flex items-center gap-2'>
-                                    <Link to="/my_profile" className='text-xl bg-white rounded-full p-3' title='update profile'>
+                                    <Link to="/my_profile" className='text-xl bg-[#ebebeb] rounded-full p-3' title='update profile'>
                                         <FaRegPenToSquare />
                                     </Link>
-                                    <Link to="/my_coupons" className='text-2xl bg-white rounded-full p-2' title='my favourites'>
+                                    <Link to="/my_coupons" className='text-2xl bg-[#ebebeb] rounded-full p-2' title='my favourites'>
                                         <TbShoppingBagHeart />
                                     </Link>
-                                    <Link to="/logout" className='text-2xl bg-white rounded-full p-2' title='logout'>
+                                    <Link to="/logout" className='text-2xl bg-[#ebebeb] rounded-full p-2' title='logout'>
                                         <IoLogOutOutline />
                                     </Link>
 
@@ -133,7 +133,7 @@ function Nav() {
                             </div>
                         </div>
 
-                    </div> : menu && !user ? <div className='absolute max-w-80 top-[72px] right-0 md:right-2 flex flex-col bg-white/90 rounded-lg shadow-sm' onClick={e => e.stopPropagation()}>
+                    </div> : menu && !user ? <div className='absolute max-w-80 top-[72px] right-0 md:right-2 flex flex-col bg-white rounded-lg shadow-sm' onClick={e => e.stopPropagation()}>
                         <div className=' flex items-center gap-2 p-3'>
                             <div className=' px-6 py-3 bg-[#3a6ea5] h-20 rounded-lg text-[#d7dde4]'>
                                 <LuShoppingBag className='text-5xl' />
@@ -156,7 +156,7 @@ function Nav() {
             </div>
 
             {
-                user && <p className='pt-24 pb-4 text-center text-2xl text-gray-800 font-bold'>Welcome back, <span className='text-black'>Mohammad yasin</span></p>
+                user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>Mohammad yasin</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
             }
         </>
     )

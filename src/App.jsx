@@ -14,8 +14,6 @@ function App() {
       <Nav/>
       <Outlet/>
       <Footer/>
-
-      <div style={{height: "200vh"}}></div>
     </div>
   )
 }
