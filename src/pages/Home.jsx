@@ -5,11 +5,11 @@ import { LuCopyCheck } from "react-icons/lu";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import BannerCard from './components/BannerCard';
+import BannerCard from '../components/BannerCard';
 import { Link, NavLink, Outlet, useLoaderData } from 'react-router-dom';
 import { useCallback, useContext, useEffect, useRef, useState } from "react";
 import Marquee from "react-fast-marquee";
-import { AuthContext } from "./utils/MainProvider";
+import { AuthContext } from "../utils/MainProvider";
 
 function Home() {
 

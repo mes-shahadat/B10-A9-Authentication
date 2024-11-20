@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import Home from "../Home";
+import Home from "../pages/Home";
 import CategoryCards from "../components/CategoryCards";
+import Brands from "../pages/Brands";
 
 const router = createBrowserRouter([
     {
@@ -31,10 +32,11 @@ const router = createBrowserRouter([
             },
             {
                 path: 'brands',
-                element: <h3>bands page</h3>
+                element: <Brands/>,
+                loader: () => fetch('/fake_coupon_data.json')
             },
             {
-                path: 'brands/:id',
+                path: 'brand/:id',
                 element: <h3>band details page</h3>
             },
             {

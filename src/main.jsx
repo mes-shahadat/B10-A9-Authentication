@@ -7,6 +7,7 @@ import './index.css'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'animate.css';
 
 createRoot(document.getElementById('root')).render(
 
