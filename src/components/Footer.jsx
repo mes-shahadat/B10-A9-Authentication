@@ -16,7 +16,7 @@ function Footer () {
                     <div className="flex gap-2 justify-center">
                         <Link className="p-1 border border-[#ebebeb] rounded-full" to="https://www.facebook.com/mohammad.sahadat.587/" target="_blank"><CgFacebook /></Link>
                         <Link className="p-1 border border-[#ebebeb] rounded-full" to="https://www.instagram.com/sahadat2173/" target="_blank"><FiInstagram /></Link>
-                        <Link className="p-1 border border-[#ebebeb] rounded-full"><RiTwitterXLine /></Link>
+                        <Link className="p-1 border border-[#ebebeb] rounded-full" to="https://x.com/md_yasin_74630" target="_blank"><RiTwitterXLine /></Link>
                         <Link className="p-1 border border-[#ebebeb] rounded-full" to="https://t.me/mohammad_yasin74630" target="_blank"><FaTelegramPlane /></Link>
                     </div>
                 </div>
