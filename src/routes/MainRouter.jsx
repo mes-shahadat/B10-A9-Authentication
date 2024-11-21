@@ -10,6 +10,7 @@ import Register from "../pages/Register";
 import ForgotPassword from "../pages/ForgotPassword";
 import UpdateProfile from "../pages/UpdateProfile";
 import PrivateRoute from "../components/PrivateRoute";
+import FavouriteCoupons from "../pages/FavouriteCoupons";
 
 const router = createBrowserRouter([
     {
@@ -68,7 +69,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'my_coupons',
-                element: <h3>favourite coupon page</h3>
+                element: <FavouriteCoupons/>
             },
             {
                 path: '*',
