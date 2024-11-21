@@ -177,7 +177,7 @@ function Home() {
                     {
                         data.map(
                             item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
-                                <img className="w-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
+                                <img className="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
                             </Link>
                         )
                     }
@@ -193,7 +193,7 @@ function Home() {
                     {
                         data.reverse().map(
                             item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
-                                <img className="w-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
+                                <img className="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
                             </Link>
                         )
                     }
