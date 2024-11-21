@@ -17,10 +17,9 @@ import { AuthContext } from '../utils/MainProvider';
 
 function Nav() {
 
-    const { menu, handleClick, user } = useContext(AuthContext);
+    const { menu, handleClick, user, logOut } = useContext(AuthContext);
     const { pathname } = useLocation();
 
-    console.log(pathname)
     const links = <>
         <li className='items-center justify-center'>
             <NavLink to='/' className="px-6 py-3 rounded-full">
@@ -94,7 +93,7 @@ function Nav() {
                                     e.stopPropagation();
                                 }
                             }>
-                            <img className='h-12 border border-[#c0c0c0] rounded-full overflow-hidden' src={userImg} alt="" />
+                            <img className='h-12 border border-[#c0c0c0] rounded-full overflow-hidden' src={user.photoURL || userImg} alt="" />
                             <span className='span font-bold'>You</span>
                         </a> : <a className={`${menu ? "active" : ""} px-6 py-3 text-white inline-flex items-center justify-center gap-2 rounded-full cursor-pointer btn-ghost`}
                             onClick={
@@ -115,11 +114,11 @@ function Nav() {
                     menu && user ? <div className='absolute max-w-96 top-[72px] right-0 md:right-2 flex flex-col bg-white rounded-lg shadow-sm' onClick={e => e.stopPropagation()}>
                         <div className=' flex items-center gap-3 p-3'>
                             <div className='h-28 rounded-full overflow-hidden border-2 border-[#ebebeb]'>
-                                <img className=' h-full w-full object-cover' src={userImg} alt="" />
+                                <img className=' h-full w-full object-cover' src={user.photoURL || userImg} alt="" />
                             </div>
                             <div className='space-y-2 w-1/2 text-gray-700'>
-                                <h2 className='font-bold'>Mohammad yasin</h2>
-                                <small className='text-xs'>mohammadyasin74630@gmail.com</small>
+                                <h2 className='font-bold'>{user.displayName || "you"}</h2>
+                                <small className='text-xs'>{user.email}</small>
                                 <div className='flex items-center gap-2'>
                                     <Link to="/my_profile" className='text-xl bg-[#ebebeb] rounded-full p-3' title='update profile'>
                                         <FaRegPenToSquare />
@@ -127,7 +126,7 @@ function Nav() {
                                     <Link to="/my_coupons" className='text-2xl bg-[#ebebeb] rounded-full p-2' title='my favourites'>
                                         <TbShoppingBagHeart />
                                     </Link>
-                                    <Link to="/logout" className='text-2xl bg-[#ebebeb] rounded-full p-2' title='logout'>
+                                    <Link to="/" className='text-2xl bg-[#ebebeb] rounded-full p-2' title='logout' onClick={logOut}>
                                         <IoLogOutOutline />
                                     </Link>
 
@@ -160,7 +159,7 @@ function Nav() {
             {
                 pathname === '/' ? <>
                     {
-                        user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>Mohammad yasin</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
+                        user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>{user.displayName}</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
                     }
                 </> : <p className='pt-20 bg-[#3b3b3b]'></p>
             }

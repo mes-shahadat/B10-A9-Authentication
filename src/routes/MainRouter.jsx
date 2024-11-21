@@ -9,6 +9,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import ForgotPassword from "../pages/ForgotPassword";
 import UpdateProfile from "../pages/UpdateProfile";
+import PrivateRoute from "../components/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -43,15 +44,15 @@ const router = createBrowserRouter([
             },
             {
                 path: 'brand/:id',
-                element: <Brand/>
+                element: <PrivateRoute><Brand/></PrivateRoute>
             },
             {
                 path: 'my_profile',
-                element: <UpdateProfile/>
+                element: <PrivateRoute><UpdateProfile/></PrivateRoute>
             },
             {
                 path: 'about_dev',
-                element: <h3>about dev page</h3>
+                element: <h3 className="text-5xl text-white text-center font-bold py-48">Coming Soon</h3>
             },
             {
                 path: 'register',

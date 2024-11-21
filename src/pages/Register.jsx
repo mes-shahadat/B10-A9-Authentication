@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate, useLocation } from "react-router-dom";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
+import { AuthContext } from "../utils/MainProvider";
 
 function Register () {
 
@@ -12,6 +13,9 @@ function Register () {
         whitespaces : false,
         length : false 
     })
+
+    const {createUser, updateUser, user, loginGoogleUser} = useContext(AuthContext);
+    const {state} = useLocation();
 
     const handleChange = (e) => {
 
@@ -52,9 +56,15 @@ function Register () {
     const handleSubmit = (e) => {
         
         e.preventDefault();
+        
+        createUser(e.target.email.value, e.target.password.value, () => updateUser ({
+            displayName: e.target.name.value, photoURL: e.target.photo_url.value
+          }))
+        
     }
 
     return <section className="my-10 mx-2">
+        { user ? <Navigate to={state?.pathname || "/"} state={state?.state}/> : null }
         <div className="bg-white max-w-[500px] p-8 md:p-20 space-y-8 rounded-lg mx-auto">
         <p className="text-xl font-bold text-center">Register for Discount PRO</p>
 
@@ -79,10 +89,10 @@ function Register () {
 
             <button className="border w-full py-3 font-semibold rounded-lg bg-[#004e98] text-white" type="submit">Register</button>
             <hr />
-            <button className="border w-full py-3 font-semibold rounded-lg">Google</button>
+            <button className="border w-full py-3 font-semibold rounded-lg" type="button" onClick={loginGoogleUser}>Google</button>
         </form>
         
-        <p className="font-semibold text-center">Already have an account ? <Link className="text-blue-600" to='/login'>Log In</Link></p>
+        <p className="font-semibold text-center">Already have an account ? <Link className="text-blue-600" to='/login' state={state}>Log In</Link></p>
         </div>
     </section>
 }

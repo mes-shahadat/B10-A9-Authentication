@@ -58,7 +58,7 @@ function CategoryCards() {
                                                 <p className="text-sm">{coupon.description}</p>
                                                 <div className="relative">
                                                 <p className="p-2 border border-dotted border-[#3a6ea5] bg-[#f4fffb] rounded-lg text-right font-bold">{coupon.coupon_code}</p>
-                                                <Link className="px-[18px] py-[9px] bg-[#004e98] text-white font-semibold rounded-lg absolute block top-0" to={`/brand/${item.brand_name}`} state={item}>Show Coupon</Link>
+                                                <Link className="px-[18px] py-[9px] bg-[#004e98] text-white font-semibold rounded-lg absolute block top-0" to={`/brand/${item.brand_name}`} state={item}>Show Coupons</Link>
                                                 </div>
                                             </div>
                                         </SwiperSlide>

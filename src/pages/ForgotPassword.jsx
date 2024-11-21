@@ -1,11 +1,15 @@
+import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { AuthContext } from "../utils/MainProvider";
 
 function ForgotPassword() {
 
     const { state } = useLocation()
+    const {resetUserPassword} = useContext(AuthContext)
     
     const handleSubmit = (e) => {
         e.preventDefault();
+        resetUserPassword(e.target.email.value);
     }
 
     return <section className="my-10 mx-2">

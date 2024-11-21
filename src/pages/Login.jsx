@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, Navigate, useLocation } from "react-router-dom";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
-import { useRef, useState } from "react";
+import { useContext, useRef, useState } from "react";
+import { AuthContext } from "../utils/MainProvider";
 
 function Login () {
 
     const [passwordShown, setPasswordShown] = useState(false)
     const passwordRef = useRef('')
     const [email, setEmail] = useState('')
+    const {loginUser, user, loginGoogleUser} = useContext(AuthContext)
+    const {state} = useLocation();
 
     const handleChange = (e) => {
         setEmail(e.target.value);
@@ -19,9 +22,11 @@ function Login () {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        loginUser(e.target.email.value, e.target.password.value)
     }
 
     return <section className="my-10 mx-2">
+        { user ? <Navigate to={state?.pathname || "/"} state={state?.state}/> : null }
         <div className="bg-white max-w-[500px] p-8 md:p-20 space-y-8 rounded-lg mx-auto">
         <p className="text-xl font-bold text-center">Login to Discount PRO</p>
 
@@ -38,12 +43,12 @@ function Login () {
 
         <Link className="text-sm inline-block m-1 hover:underline" to='/forgot_password' state={email}>Forgot Password ?</Link>
         <div className="flex justify-between">
-            <button className="border w-[48%] py-3 font-semibold rounded-lg">Google</button>
+            <button className="border w-[48%] py-3 font-semibold rounded-lg" type="button" onClick={loginGoogleUser}>Google</button>
             <button className="border w-[48%] py-3 font-semibold rounded-lg bg-[#004e98] text-white" type="submit">Log In</button>
         </div>
         </form>
         
-        <p className="font-semibold text-center">Don't have an account ? <Link className="text-blue-600" to="/register">Sign Up</Link></p>
+        <p className="font-semibold text-center">Don't have an account ? <Link className="text-blue-600" to="/register" state={state}>Sign Up</Link></p>
         </div>
     </section>
 }

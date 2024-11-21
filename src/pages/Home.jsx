@@ -10,6 +10,7 @@ import { Link, NavLink, Outlet, useLoaderData } from 'react-router-dom';
 import { useCallback, useContext, useEffect, useRef, useState } from "react";
 import Marquee from "react-fast-marquee";
 import { AuthContext } from "../utils/MainProvider";
+import { toast } from "react-toastify";
 
 function Home() {
 
@@ -40,7 +41,9 @@ function Home() {
             setIsCopied(true);
             setTimeout(() => setIsCopied(false), 1000);
         } else {
-            console.log('Failed to copy text. Please try again.');
+            toast.error('Failed to copy text. Please try again.', {
+                position: "bottom-right"
+            })
         }
     };
 
@@ -75,7 +78,9 @@ function Home() {
             fetch('/categories.json')
                 .then(res => res.json())
                 .then(data => setCategories(data))
-                .catch(error => console.log("error occured !", error))
+                .catch(() => toast.error("Error while fetching categories", {
+                    position: "bottom-right"
+                }))
         }, []
     )
 
