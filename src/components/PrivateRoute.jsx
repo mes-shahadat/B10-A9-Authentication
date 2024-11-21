@@ -16,7 +16,7 @@ function PrivateRoute ({children}) {
         return children
     }
 
-    return <Navigate to='/login' state={obj}/>
+    return <Navigate to='/login' state={obj} replace={true}/>
 }
 
 export default PrivateRoute

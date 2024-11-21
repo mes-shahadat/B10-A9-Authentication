@@ -26,7 +26,7 @@ function Login () {
     }
 
     return <section className="my-10 mx-2">
-        { user ? <Navigate to={state?.pathname || "/"} state={state?.state}/> : null }
+        { user ? <Navigate to={state?.pathname || "/"} state={state?.state} replace={true}/> : null }
         <div className="bg-white max-w-[500px] p-8 md:p-20 space-y-8 rounded-lg mx-auto">
         <p className="text-xl font-bold text-center">Login to Discount PRO</p>
 

@@ -159,7 +159,7 @@ function Nav() {
             {
                 pathname === '/' ? <>
                     {
-                        user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>{user.displayName}</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
+                        user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>{user.displayName || "you"}</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
                     }
                 </> : <p className='pt-20 bg-[#3b3b3b]'></p>
             }
