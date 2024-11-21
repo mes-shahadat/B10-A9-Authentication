@@ -5,11 +5,13 @@ import { AuthContext } from "../utils/MainProvider";
 function ForgotPassword() {
 
     const { state } = useLocation()
-    const {resetUserPassword} = useContext(AuthContext)
+    const {resetUserPassword, logOut} = useContext(AuthContext)
     
     const handleSubmit = (e) => {
         e.preventDefault();
         resetUserPassword(e.target.email.value);
+        logOut();
+        window.location.replace('https://mail.google.com/')
     }
 
     return <section className="my-10 mx-2">

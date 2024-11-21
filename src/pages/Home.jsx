@@ -12,7 +12,15 @@ import Marquee from "react-fast-marquee";
 import { AuthContext } from "../utils/MainProvider";
 import { toast } from "react-toastify";
 
+import AOS from 'aos';
+
 function Home() {
+
+    useEffect(
+        () => {
+            AOS.init();
+        }, []
+    )
 
     const { favourites, setFavourites } = useContext(AuthContext);
     const { coupons, setCoupons } = useContext(AuthContext);
@@ -114,7 +122,7 @@ function Home() {
 
         <section className="w-11/12 mx-auto my-14">
 
-        <h2 className="text-white text-2xl font-bold text-center uppercase my-10">New Coupons</h2>
+            <h2 className="text-white text-2xl font-bold text-center uppercase my-10">New Coupons</h2>
 
             <Swiper
                 slidesPerView={1}
@@ -126,7 +134,7 @@ function Home() {
                 autoplay={{
                     delay: 2900,
                     disableOnInteraction: false,
-                  }}
+                }}
                 breakpoints={{
                     1550: {
                         slidesPerView: 2,
@@ -155,8 +163,8 @@ function Home() {
 
         <section className=" bg-[#edf1f8]">
 
-        <h2 className="text-2xl font-bold text-center pt-14 mb-8 uppercase">Top Brands That Customers Love</h2>
-        <p className="max-w-[70ch] mx-auto text-center font-semibold mb-10 text-gray-800 px-4">Discover the top brands that customers trust and love! From high-quality products to exceptional services, these brands stand out for their commitment to excellence.</p>
+            <h2 className="text-2xl font-bold text-center pt-14 mb-8 uppercase">Top Brands That Customers Love</h2>
+            <p className="max-w-[70ch] mx-auto text-center font-semibold mb-10 text-gray-800 px-4">Discover the top brands that customers trust and love! From high-quality products to exceptional services, these brands stand out for their commitment to excellence.</p>
 
             <div className="w-11/12 mx-auto px-4 pb-20">
 
@@ -195,7 +203,10 @@ function Home() {
 
         </section>
 
-        <section className="w-11/12 mx-auto ">
+        <section className="w-11/12 mx-auto "
+            data-aos="slide-right"
+            data-aos-duration="1000"
+        >
             <h2 className="pt-16 text-white text-2xl font-bold mb-4 uppercase">Brands on Sell</h2>
 
             <div className="flex flex-wrap gap-4 justify-center">
@@ -230,7 +241,10 @@ function Home() {
 
         <section className="bg-[#edf1f8] mt-10 pb-24">
 
-            <div className="w-11/12 mx-auto bg-[#edf1f8]">
+            <div className="w-11/12 mx-auto bg-[#edf1f8]"
+                data-aos="slide-left"
+                data-aos-duration="1000"
+            >
                 <h2 className="pt-16 text-black text-2xl font-bold mb-10 uppercase">Popular Categories</h2>
 
                 <div className="flex max-sm:flex-col gap-4">
@@ -252,7 +266,10 @@ function Home() {
 
         </section>
 
-        <section className=" mt-10 mb-20">
+        <section className=" mt-10 mb-20"
+        data-aos="zoom-in-up"
+        data-aos-duration="1000"
+        >
 
             <div className="w-11/12 mx-auto">
                 <h2 className="text-3xl font-bold my-10 text-center text-white">About Discount Pro</h2>

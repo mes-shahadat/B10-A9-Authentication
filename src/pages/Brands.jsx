@@ -1,9 +1,19 @@
 import { Link, useLoaderData } from "react-router-dom";
 import { IoMdSearch } from "react-icons/io";
 import ReactStars from "react-rating-stars-component";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+import AOS from 'aos';
 
 function Brands() {
+
+    
+    useEffect(
+        () => {
+            AOS.init({ duration: 500 });
+        }, []
+    )
+
 
     const data = useLoaderData();
     const [brands, setBrands] = useState(data);
@@ -30,7 +40,9 @@ function Brands() {
             <div className="space-y-4 w-max mx-auto">
                 {
                     brands.map(
-                        item => <div className="flex max-sm:flex-col gap-4 bg-white p-4 rounded-lg relative" key={item._id}>
+                        item => <div className="flex max-sm:flex-col gap-4 bg-white p-4 rounded-lg relative" key={item._id}
+                        data-aos="zoom-in-up"
+                        >
                             <div className="relative">
                                 <img className="max-w-64 md:max-w-48 h-64 md:h-48 rounded-lg border mx-auto" src={item.brand_logo} alt="" />
                                 <Link className="hidden md:block absolute bottom-2 left-1/2 -translate-x-1/2 bg-[#004e98] text-white text-sm px-4 py-2 font-bold whitespace-nowrap rounded-lg" to={`/brand/${item.brand_name}`} state={item}>View Coupons</Link>

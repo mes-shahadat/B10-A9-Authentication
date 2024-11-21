@@ -7,13 +7,13 @@ import Nav from "./components/Nav"
 
 function App() {
 
-  const {handleClick} = useContext(AuthContext);
+  const { handleClick } = useContext(AuthContext);
 
   return (
-    <div onClick={()=>handleClick(false)}>
-      <Nav/>
-      <Outlet/>
-      <Footer/>
+    <div onClick={() => handleClick(false)}>
+      <Nav />
+      <Outlet />
+      <Footer />
     </div>
   )
 }

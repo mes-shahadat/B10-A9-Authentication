@@ -4,6 +4,7 @@
 
 body {
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .navbar-center a span, .navbar-end a span {

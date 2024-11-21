@@ -10,6 +10,7 @@ import 'swiper/css/navigation';
 import 'animate.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import 'aos/dist/aos.css';
 
 createRoot(document.getElementById('root')).render(
 
