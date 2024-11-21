@@ -5,7 +5,7 @@ export const AuthContext = createContext(null);
 function MainProvider({ children }) {
 
     const [menu, setMenu] = useState(false)
-    const [user, setUser] = useState("mohammad yasin")
+    const [user, setUser] = useState(null)
     const [favourites, setFavourites] = useState([])
     const [coupons, setCoupons] = useState([])
 

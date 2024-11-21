@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import logo from '../assets/logo small.png'
 import { RiHome6Line } from "react-icons/ri";
 import { TbBrandAppgallery } from "react-icons/tb";
@@ -18,7 +18,9 @@ import { AuthContext } from '../utils/MainProvider';
 function Nav() {
 
     const { menu, handleClick, user } = useContext(AuthContext);
+    const { pathname } = useLocation();
 
+    console.log(pathname)
     const links = <>
         <li className='items-center justify-center'>
             <NavLink to='/' className="px-6 py-3 rounded-full">
@@ -156,7 +158,11 @@ function Nav() {
             </div>
 
             {
-                user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>Mohammad yasin</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
+                pathname === '/' ? <>
+                    {
+                        user ? <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold bg-[#3b3b3b]'>Welcome back, <span className='font-bold'>Mohammad yasin</span></p> : <p className='pt-24 pb-4 text-center text-2xl text-white font-semibold'>Welcome to, <span className='font-bold'>Discount PRO</span></p>
+                    }
+                </> : <p className='pt-20 bg-[#3b3b3b]'></p>
             }
         </>
     )

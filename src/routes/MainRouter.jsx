@@ -5,6 +5,10 @@ import CategoryCards from "../components/CategoryCards";
 import Brands from "../pages/Brands";
 import Brand from "../pages/Brand";
 import Error from "../components/Error";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import ForgotPassword from "../pages/ForgotPassword";
+import UpdateProfile from "../pages/UpdateProfile";
 
 const router = createBrowserRouter([
     {
@@ -43,7 +47,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'my_profile',
-                element: <h3>profile page</h3>
+                element: <UpdateProfile/>
             },
             {
                 path: 'about_dev',
@@ -51,15 +55,15 @@ const router = createBrowserRouter([
             },
             {
                 path: 'register',
-                element: <h3>register page</h3>
+                element: <Register/>
             },
             {
                 path: 'login',
-                element: <h3>login page</h3>
+                element: <Login/>
             },
             {
                 path: 'forgot_password',
-                element: <h3>forgot password page</h3>
+                element: <ForgotPassword/>
             },
             {
                 path: 'my_coupons',
