@@ -58,7 +58,7 @@ function Register () {
         e.preventDefault();
         
         createUser(e.target.email.value, e.target.password.value, () => updateUser ({
-            displayName: e.target.name.value, photoURL: e.target.photo_url.value
+            displayName: e.target.name.value, photoURL: e.target.photo_url.value, email: e.target.email.value
           }))
         
     }

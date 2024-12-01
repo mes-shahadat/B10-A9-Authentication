@@ -168,37 +168,42 @@ function Home() {
 
             <div className="w-11/12 mx-auto px-4 pb-20">
 
-                <Marquee
-                    autoFill={true}
-                    delay='1'
-                    pauseOnHover={true}
-                >
+                <div className="rounded-[3%] overflow-hidden">
 
-                    {
-                        data.map(
-                            item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
-                                <img className="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
-                            </Link>
-                        )
-                    }
+                    <Marquee
+                        autoFill={true}
+                        delay='1'
+                        pauseOnHover={true}
+                    >
 
-                </Marquee>
+                        {
+                            data.map(
+                                item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
+                                    <img className="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
+                                </Link>
+                            )
+                        }
 
-                <Marquee
-                    autoFill={true}
-                    delay='1'
-                    pauseOnHover={true}
-                >
+                    </Marquee>
 
-                    {
-                        data.reverse().map(
-                            item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
-                                <img className="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
-                            </Link>
-                        )
-                    }
+                    <Marquee
+                        autoFill={true}
+                        delay='1'
+                        pauseOnHover={true}
+                    >
 
-                </Marquee>
+                        {
+                            data.reverse().map(
+                                item => <Link key={item._id} to={`/brand/${item.brand_name}`} state={item}>
+                                    <img className="w-28 h-28 md:w-36 md:h-36 object-cover rounded-lg m-1" src={item.brand_logo} alt="" />
+                                </Link>
+                            )
+                        }
+
+                    </Marquee>
+
+                </div>
+
             </div>
 
         </section>
@@ -267,8 +272,8 @@ function Home() {
         </section>
 
         <section className=" mt-10 mb-20"
-        data-aos="zoom-in-up"
-        data-aos-duration="1000"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
         >
 
             <div className="w-11/12 mx-auto">

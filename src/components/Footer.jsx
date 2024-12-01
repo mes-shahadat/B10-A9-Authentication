@@ -31,7 +31,7 @@ function Footer () {
                 <div className="flex flex-col space-y-1 text-gray-200">
                     <h2 className="text-xl font-bold text-white">Help</h2>
                     <Link className="text-sm">Contact us</Link>
-                    <Link className="text-sm">Favourite list</Link>
+                    <Link className="text-sm" to="/my_coupons">Favourite list</Link>
                     <Link className="text-sm">Faq</Link>
                 </div>
             </div>

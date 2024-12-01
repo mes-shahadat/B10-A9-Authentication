@@ -13,10 +13,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import 'aos/dist/aos.css';
 
 createRoot(document.getElementById('root')).render(
-
+  
+  <StrictMode>
     <MainProvider>
       <ToastContainer />
       <RouterProvider router={MainRouter} />
     </MainProvider>
+  </StrictMode>
 
 )

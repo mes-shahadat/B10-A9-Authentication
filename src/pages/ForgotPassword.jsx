@@ -5,6 +5,7 @@ import { AuthContext } from "../utils/MainProvider";
 function ForgotPassword() {
 
     const { state } = useLocation()
+    const {user} = useContext(AuthContext);
     const {resetUserPassword, logOut} = useContext(AuthContext)
     
     const handleSubmit = (e) => {
@@ -20,13 +21,15 @@ function ForgotPassword() {
             <p className="font-semibold text-center">Enter your email address below and we'll send reset link to this email.</p>
 
             <form className="space-y-4" onSubmit={e => handleSubmit(e)}>
-                <input className="w-full border p-3 rounded-lg focus:outline-none" type="email" placeholder="Email" name="email" defaultValue={state} required />
+                <input className="w-full border p-3 rounded-lg focus:outline-none" type="email" placeholder="Email" name="email" defaultValue={state || user?.email} required />
 
 
                 <button className="border w-full py-3 font-semibold rounded-lg bg-[#004e98] text-white" type="submit">Reset Password</button>
             </form>
 
-            <p className="font-semibold text-center">Don't have an account ? <Link className="text-blue-600" to="/register">Sign Up</Link></p>
+            {
+                user === null ? <p className="font-semibold text-center">Don't have an account ? <Link className="text-blue-600" to="/register">Sign Up</Link></p> : null
+            }
         </div>
     </section>
 }

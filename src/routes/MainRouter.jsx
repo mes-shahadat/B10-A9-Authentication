@@ -69,7 +69,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'my_coupons',
-                element: <FavouriteCoupons/>
+                element: <PrivateRoute><FavouriteCoupons/></PrivateRoute>
             },
             {
                 path: '*',

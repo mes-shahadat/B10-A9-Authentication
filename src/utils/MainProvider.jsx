@@ -11,6 +11,7 @@ function MainProvider({ children }) {
     const [user, setUser] = useState(null)
     const [favourites, setFavourites] = useState([])
     const [coupons, setCoupons] = useState([])
+    const [loading, setLoading] = useState(true)
 
     const loginGoogleUser = () => {
 
@@ -113,6 +114,8 @@ function MainProvider({ children }) {
                 } else {
                     setUser(null);
                 }
+                
+                setLoading(false);
             })
 
             return () => { unsubscribe() }
@@ -137,6 +140,7 @@ function MainProvider({ children }) {
         user,
         favourites,
         coupons,
+        loading,
         setMenu,
         setUser,
         handleClick,
@@ -147,7 +151,8 @@ function MainProvider({ children }) {
         logOut,
         updateUser,
         resetUserPassword,
-        loginGoogleUser
+        loginGoogleUser, 
+        setLoading
     }
     return <AuthContext.Provider value={authInfo}>
         {children}
